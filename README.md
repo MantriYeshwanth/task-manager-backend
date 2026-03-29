@@ -100,7 +100,13 @@ cd task-manager-backend
 npm install
 ```
 
-4. Create `.env` file
+4. Create `.env` file or copy `.env.example`
+
+```
+cp .env.example .env
+```
+
+Then edit `.env` with your own values:
 
 ```
 PORT=5001
